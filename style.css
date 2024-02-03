@@ -111,7 +111,7 @@ a:active {
 
 .navbar {
     color: #272343;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     height: 60px;
     width: 100%;
@@ -128,6 +128,13 @@ a:active {
 .navbar .container ul {
     display: flex;
     gap: 32px;
+}
+
+.outline {
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #bae8e8, 1px -1px 0 #bae8e8, -1px 1px 0 #bae8e8,
+        1px 1px 0 #bae8e8;
 }
 
 .hero {
@@ -190,6 +197,14 @@ a:active {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.box p {
+    align-self: flex-start;
+}
+
+.box p:nth-of-type(2) {
+    font-weight: 600;
 }
 
 .box:nth-child(1) {
