@@ -63,7 +63,19 @@ body {
     background-color: #fffffe;
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
+    line-height: 1.7;
+}
+
+p {
+    color: #2d334a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #272343;
 }
 
 h1 {
@@ -79,6 +91,7 @@ h1 {
 
 .navbar {
     color: #272343;
+    font-size: 18px;
     font-weight: 700;
     height: 60px;
     width: 100%;
@@ -95,4 +108,17 @@ h1 {
 .navbar .container ul {
     display: flex;
     gap: 32px;
+}
+
+.hero {
+    margin: 100px 0px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    max-width: 600px;
 }
