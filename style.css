@@ -303,6 +303,7 @@ footer .container p {
     font-family: "Rubik Doodle Shadow", system-ui;
     font-size: 80px;
     animation: color-change 4s infinite;
+    text-align: center;
 }
 
 @keyframes color-change {
