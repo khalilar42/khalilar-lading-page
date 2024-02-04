@@ -141,7 +141,7 @@ a:active {
 }
 
 .hero {
-    margin: 100px 0px;
+    margin: 150px 0px;
 }
 
 .hero .container {
@@ -162,12 +162,17 @@ a:active {
     /* center the image vertically and horizontally */
     background-position: bottom 0px right 2px;
 
-    transform: rotate(352deg);
-
     /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 50%;
 
     margin-right: 64px;
+
+    transition: transform 500ms ease-in-out;
+}
+
+.avatar:hover {
+    transform: rotate(0.99turn) scale(1.1);
+    cursor: pointer;
 }
 
 .description {
@@ -327,4 +332,11 @@ footer .container p {
 
 .author img {
     transform: rotateZ("180deg");
+}
+
+#btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
 }
