@@ -382,16 +382,24 @@ footer .container p {
         align-items: center;
     }
 
+    .hero {
+        margin: 12px 0px;
+    }
+
     .navbar .container ul {
         flex-direction: column;
         align-items: center;
         gap: 0px;
     }
+
+    .navbar ul li {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .hero {
-        margin: 120px 0px;
+        margin: 12px 0px;
     }
 
     .boxes .box {
@@ -404,5 +412,9 @@ footer .container p {
 
     .short-text {
         display: block;
+    }
+
+    .navbar ul li {
+        display: none;
     }
 }
