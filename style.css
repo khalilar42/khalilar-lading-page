@@ -57,6 +57,9 @@ table {
 }
 
 /* ------------------------------- CSS Reset ------------------------ */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -240,6 +243,7 @@ a:active {
 }
 
 footer {
+    margin-top: 80px;
     height: 69px;
 }
 
@@ -262,4 +266,65 @@ footer .container p {
 
 .socials i:hover {
     transform: scale(1.5);
+}
+
+.social-icon {
+    color: #2d334a;
+}
+
+.motto {
+    margin: 80px 0px;
+}
+
+.motto h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.motto .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.quote {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 80px;
+    animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: #e58425;
+    }
+    25% {
+        color: #deba79;
+    }
+    50% {
+        color: #56a784;
+    }
+    75% {
+        color: #a45eff;
+    }
+    100% {
+        color: #e58425;
+    }
+}
+
+.author {
+    align-self: end;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.author img {
+    transform: rotateZ("180deg");
 }
