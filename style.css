@@ -146,6 +146,7 @@ a:active {
 
 .hero .container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -177,6 +178,11 @@ a:active {
 
 .description {
     max-width: 600px;
+}
+
+.description p {
+    line-height: 1.5;
+    margin: 12px 0px;
 }
 
 .experience {
@@ -257,6 +263,10 @@ footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+strong {
+    font-weight: 600;
+    font-style: italic;
 }
 
 footer .container p {
